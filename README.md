@@ -1,38 +1,28 @@
-🧠 Enhanced Q&A Chatbot with Ollama
+# 💬 Enhanced Q&A Chatbot with Ollama
 
-This is a Streamlit web app powered by LangChain and Ollama that allows users to interact with locally hosted open-source LLMs like Gemma, Phi-3, and Gemma-3:1B.
-It provides a simple question-and-answer interface with adjustable parameters such as temperature and token limit.
+An intelligent **local chatbot** built using **Streamlit**, **LangChain**, and **Ollama**, capable of running open-source LLMs such as **Gemma**, **Phi-3**, and **Gemma-3:1B**.  
+This app provides an easy-to-use interface for question answering with adjustable temperature and token settings — **no API key required**!
 
-🚀 Features
+---
 
-💬 Interactive chatbot using LangChain’s prompt pipeline
+## ⚡ Features
 
-⚙️ Choose Ollama models dynamically (e.g., gemma2, phi3, gemma3:1b)
+✅ **Interactive Chat UI** — built with Streamlit  
+✅ **Runs Fully Offline** using Ollama models  
+✅ **Customizable Parameters** — temperature and max tokens  
+✅ **LangChain-powered Prompt Management**  
+✅ **Beautiful Sidebar Controls**  
+✅ **Optional LangSmith Integration** for experiment tracking  
 
-🔥 Adjustable temperature and max token sliders
+---
 
-🧩 Uses LangChain for structured prompts and output parsing
-
-⚡ Runs locally using Ollama — no external API key required
-
-🧠 Optional integration with LangSmith for model tracing and debugging
-
-🗂️ Project Structure
-📁 GenAI Projects/
-│
-├── app.py                # Main Streamlit app
-├── .env                  # Environment variables (optional)
-├── requirements.txt       # Dependencies
-└── README.md              # Project documentation
-
-⚙️ Setup Instructions
+## ⚙️ Setup Instructions
 1️⃣ Clone the repository
 git clone (https://github.com/Yashraj0906/Ollama_Q-A_Chatbot_App.git)
 cd Ollama_Chatbot_App
 
 2️⃣ Create a virtual environment
 python -m venv .venv
-
 
 Activate it:
 
